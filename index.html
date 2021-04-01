@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     
   <div id="header">
-    <div class="container">
+    <div class="container md:grid-cols-3 sm:grid-cols-1">
       <h1>
         <span class="logo">CityTech</span> Coding School
       </h1>
@@ -28,7 +29,7 @@
       </ul>
     </div>
   </div>
-  <div id="banner">
+  <div id="banner" class="md:grid-cols-1">
     <div class="container">
       <h1>USA standarts in UZBEKISTAN</h1>
       <p>
@@ -37,7 +38,7 @@
       </p>
     </div>
   </div>
-  <div id="newsletter">
+  <div id="newsletter" class="md:grid-cols-2 sm:grid-cols-1">
     <div class="container">
       <div class="left">
         <h3>Subscribe to our newsletter</h3>
@@ -49,7 +50,7 @@
     </div>
   </div>
 
-  <div id="courses">
+  <div id="courses" class="md:grid-cols-3 sm:grid-cols-1">
     <div class="container">
       <div class="course-wrapper">
         <div class="box">
@@ -76,7 +77,7 @@
 
   <div class="clr"></div>
 
-  <div id="footer">
+  <div id="footer" class="md:grid-cols-1">
     <p>City Tech - Coding School &copy; 2021</p>
   </div>
 
